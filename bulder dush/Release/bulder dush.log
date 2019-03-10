@@ -1,0 +1,45 @@
+﻿Построение начато 27.01.2019 0:38:08.
+     1>Проект "C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\bulder dush\bulder dush.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\bulder dush.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\libs for visualstudio\SFML-2.0-windows-vc10-32bits\SFML-2.0\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D SFML_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\bulder dush.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "bulder dush.cpp"
+         bulder dush.cpp
+     1>bulder dush.cpp(108): warning C4244: аргумент: преобразование "float" в "DWORD", возможна потеря данных
+     1>bulder dush.cpp(118): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(119): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(231): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(232): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(233): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>bulder dush.cpp(242): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(242): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(253): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(254): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(391): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(392): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(533): warning C4258: i: определение из цикла for игнорируется; используется определение из внешней области видимости
+                 bulder dush.cpp(516): пропуск определения "i"
+                 bulder dush.cpp(520): используется определение "i"
+     1>bulder dush.cpp(609): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>bulder dush.cpp(609): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>bulder dush.cpp(614): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>bulder dush.cpp(662): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>bulder dush.cpp(663): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Release\bulder dush.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\libs for visualstudio\SFML-2.0-windows-vc10-32bits\SFML-2.0\lib" "sfml-graphics-s.lib" "sfml-window-s.lib" "sfml-system-s.lib" "sfml-audio-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\bulder dush.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Release\bulder dush.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Release\bulder dush.lib" /MACHINE:X86 "Release\bulder dush.obj"
+         Release\stdafx.obj
+         Создание кода
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(645): warning C4700: использована неинициализированная локальная переменная "temp"
+         Создание кода завершено
+         bulder dush.vcxproj -> C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Release\bulder dush.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Release\bulder dush.exe;#1" /manifest "Release\bulder dush.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Release\bulder dush.unsuccessfulbuild" удаляется.
+         Обращение к "Release\bulder dush.lastbuildstate".
+     1>Построение проекта "C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\bulder dush\bulder dush.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.27

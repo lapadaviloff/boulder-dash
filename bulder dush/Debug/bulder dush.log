@@ -1,0 +1,48 @@
+﻿Построение начато 26.01.2019 20:06:39.
+     1>Проект "C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\bulder dush\bulder dush.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\bulder dush.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\libs for visualstudio\SFML-2.0-windows-vc10-32bits\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\bulder dush.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "bulder dush.cpp"
+         bulder dush.cpp
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(109): warning C4244: аргумент: преобразование "float" в "DWORD", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(119): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(120): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(233): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(234): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(235): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(244): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(244): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(260): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(261): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(348): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(349): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(462): warning C4258: i: определение из цикла for игнорируется; используется определение из внешней области видимости
+                 c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(445): пропуск определения "i"
+                 c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(449): используется определение "i"
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(539): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(539): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(544): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(594): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\администратор\documents\visual studio 2010\projects\bulder dush\bulder dush\bulder dush.cpp(595): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Debug\bulder dush.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\libs for visualstudio\SFML-2.0-windows-vc10-32bits\SFML-2.0\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bulder dush.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Debug\bulder dush.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Debug\bulder dush.lib" /MACHINE:X86 "Debug\bulder dush.exe.embed.manifest.res"
+         "Debug\bulder dush.obj"
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\bulder dush.exe.embed.manifest" /manifest "Debug\bulder dush.exe.intermediate.manifest"
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         bulder dush.vcxproj -> C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\Debug\bulder dush.exe
+       FinalizeBuildStatus:
+         Файл "Debug\bulder dush.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\bulder dush.lastbuildstate".
+     1>Построение проекта "C:\Users\Администратор\documents\visual studio 2010\Projects\bulder dush\bulder dush\bulder dush.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.49
